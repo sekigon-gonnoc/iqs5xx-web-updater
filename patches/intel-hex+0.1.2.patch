@@ -1,0 +1,13 @@
+diff --git a/node_modules/intel-hex/index.js b/node_modules/intel-hex/index.js
+index f82ac70..33cd64c 100644
+--- a/node_modules/intel-hex/index.js
++++ b/node_modules/intel-hex/index.js
+@@ -6,7 +6,7 @@ const DATA = 0,
+ 	EXT_LINEAR_ADDR = 4,
+ 	START_LINEAR_ADDR = 5;
+ 
+-const EMPTY_VALUE = 0xFF;
++const EMPTY_VALUE = 0;
+ 
+ /* intel_hex.parse(data)
+ 	`data` - Intel Hex file (string in ASCII format or Buffer Object)
